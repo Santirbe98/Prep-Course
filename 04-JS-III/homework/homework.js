@@ -73,8 +73,8 @@ function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
-  const valorInicial = 0;
-  const sumaFinal = numeros.reduce(
+  let valorInicial = 0;
+  let sumaFinal = numeros.reduce(
     (previousValue, currentValue) => previousValue + currentValue,
     valorInicial
   );
@@ -103,6 +103,8 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
+  let masgrande = Math.max(...numeros);
+  return masgrande;
 }
 
 
