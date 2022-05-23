@@ -1,9 +1,25 @@
 .divClass {
-    color: red;
+    color: rgb(0, 0, 0);
 }
-.sushi1 {
+
+.sushi {
     width: 400px;
 }
-.sushi2 {
-    width: 400px;
+
+#thirdDiv {
+    width: 500px;
+    height: 600px;
+    background-color: rgb(255, 98, 0);
+    padding: 50px;
+    border: 10px solid rgb(73, 73, 73);
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+
+body {
+    background-image: url(https://www.superprof.com.ar/blog/wp-content/uploads/2020/03/monte-fuji-historia.jpg);
+    text-align: center;
 }
